@@ -2,12 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
-## Setup steps
+## Setup steps and margin display issue
+```
 ng new add-margin-example
 ng add @angular/material
 ng g component my-own-component
 ng g component my-panel
+```
 
+The [my-panel.component.css](src/app/my-panel/my-panel.component.css) adds a right margin to the custom component `my-own-component` but it does not show:
+![No margin right](./site/margin_right_missing.png)
 
 ## Development server
 
